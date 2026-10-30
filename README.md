@@ -1,57 +1,40 @@
 # Machine Learning Specialization
 
-## Overview
+My completed labs, programming assignments, and certificates from the Machine Learning Specialization by DeepLearning.AI and Stanford Online on Coursera. Author: Farzan Rahmani.
 
-This repository contains my work from the **Machine Learning Specialization**, which covers a wide range of machine learning concepts and techniques. This specialization consists of three courses:
+The material progresses from regression and classification to neural networks, model evaluation, unsupervised learning, recommender systems, and reinforcement learning.
 
-1. **Supervised Machine Learning: Regression and Classification**
-   - Topics: Linear regression, logistic regression, neural networks, decision trees, and more.
-   - Focus: Understanding the foundations of supervised learning, developing predictive models, and applying them to real-world tasks.
-   
-2. **Advanced Learning Algorithms**
-   - Topics: Regularization, neural networks (deep learning), ensemble methods, and other advanced techniques.
-   - Focus: Building on foundational knowledge with advanced methods for improving model performance and generalization.
-   
-3. **Unsupervised Learning, Recommenders, Reinforcement Learning**
-   - Topics: Clustering, anomaly detection, recommender systems, and reinforcement learning.
-   - Focus: Understanding how to work with unlabeled data and implement algorithms that learn through interaction with environments.
+## Course Guide
 
-## Skills Acquired
+| Directory | Topics and examples |
+| --- | --- |
+| `C1 Supervised Machine Learning Regression and Classification/` | Linear and logistic regression, gradient descent, vectorization, feature scaling, decision boundaries, overfitting, and regularization |
+| `C2 Advanced Learning Algorithms/` | Neural networks with NumPy and TensorFlow, softmax, derivatives/backpropagation, bias and variance, model selection, decision trees, and ensembles |
+| `C3 Unsupervised Learning, Recommenders, Reinforcement Learning/` | K-means, anomaly detection, collaborative filtering, neural recommenders, PCA visualization, state-action values, and a reinforcement-learning assignment |
 
-- **Supervised Learning**: Applied linear regression, logistic regression, decision trees, and neural networks to solve both regression and classification problems.
-- **Unsupervised Learning**: Implemented clustering techniques (K-means, Gaussian Mixture Models), performed anomaly detection, and built recommender systems.
-- **Reinforcement Learning**: Explored policy and value-based learning to enable models to make decisions in uncertain environments.
-- **Advanced Techniques**: Gained expertise in regularization, deep learning, and ensemble methods like boosting and bagging.
-  
+Each course is organized into `week` folders. These contain notebooks and, where provided, local helper modules, datasets, and supporting assets. Course certificates are stored in their respective folders.
+
 ## Certificate
 
-I successfully completed this specialization and received a certificate acknowledging my proficiency in these machine learning topics. You can view it [here](https://coursera.org/verify/specialization/FVTLKQ8KMUAE).
+The specialization certificate is included as [`Coursera FVTLKQ8KMUAE.pdf`](Coursera%20FVTLKQ8KMUAE.pdf). It can also be checked through [Coursera's verification page](https://coursera.org/verify/specialization/FVTLKQ8KMUAE).
 
-## Projects
+## Running the Notebooks
 
-Throughout the specialization, I applied machine learning techniques to various projects, including:
+Use Python with Jupyter. NumPy, Matplotlib, scikit-learn, and TensorFlow are common dependencies, but requirements vary by lab. Interactive labs and the reinforcement-learning assignment may need additional libraries or versions supplied by the original course environment.
 
-- Predicting housing prices using regression models
-- Classifying emails as spam or non-spam with logistic regression and decision trees
-- Recommender system for a movie platform
-- Implementing reinforcement learning agents to solve games or optimization problems
+1. Choose a course and week, then open its assignment or lab notebook.
+2. Inspect setup/import cells and install the required packages in a compatible environment.
+3. Keep the notebook beside its helper modules, data, and plotting styles so relative imports and paths resolve.
+4. Execute cells from the beginning and use the provided checks to review your understanding.
 
-## How to Use This Repository
+There is no repository-wide package or lockfile. Historical TensorFlow, Gym-related, and notebook APIs may need compatible versions on a modern machine. The original Coursera runtime is a useful reference when reproducing course-specific behavior.
 
-Each course has its own folder containing:
-- Lecture notes
-- Jupyter notebooks with exercises and projects
-- Implementations of algorithms covered in the course
+## Learning and Attribution
 
-Feel free to explore the code, use it for learning, and adapt it for your own projects.
+This repository records my coursework. Use it for review and independent study while following the specialization's honor code; complete graded work yourself before consulting solutions. Original notebooks, datasets, and helper code retain their course attribution and any embedded notices.
 
-## Connect with Me
+See [LICENSE](LICENSE) for the repository license. Third-party course material remains subject to its original terms.
 
-For any questions, feedback, or collaboration opportunities, feel free to reach out:
+## Contact
 
-- LinkedIn: [My LinkedIn Profile](https://www.linkedin.com/in/farzan-rahmani-51128b201)
-- Email: [My Email](mailto:farzanrahmani70@gmail.com)
-
----
-
-Thank you for visiting this repository! Together, we can #BreakIntoAI and build a future with machine learning!
+[LinkedIn](https://www.linkedin.com/in/farzan-rahmani-51128b201) · [Email](mailto:farzanrahmani70@gmail.com)
